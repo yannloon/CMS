@@ -28,6 +28,7 @@ class Announcement extends LC_Controller {
     private function send_email($receiver, $sender, $senderName, $subject, $message, $bcc, $images=array(), $files=array()) {
         $this->load->library('email');
         //testing code
+        //testing test 2
 
         $img_dir = $this->data_model->getDir("IMAGE", IMG_TYPE_ANNOUNCEMENT);
         $doc_dir = $this->data_model->getDir("DOCUMENT", DOC_TYPE_ANNOUNCEMENT);
