@@ -29,6 +29,7 @@ class Announcement extends LC_Controller {
         $this->load->library('email');
         //testing code
         //testing code 2
+        //testing test 2
 
         $img_dir = $this->data_model->getDir("IMAGE", IMG_TYPE_ANNOUNCEMENT);
         $doc_dir = $this->data_model->getDir("DOCUMENT", DOC_TYPE_ANNOUNCEMENT);
